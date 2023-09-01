@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65rem;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5em;
+
+  font-weight: 700;
+}
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  color: #c8e7f0;
+}
+
+footer h2,
+footer h3 {
+  color: white;
+}
+footer a {
+  color: #c8e7f0;
+}
+
+/* //////////////////////         HEADER   ///////////////////////// */
+#logo-des {
+  background: url(/assets/media/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 35px;
+}
+
+#logo-wrap {
+  background-color: black;
+}
+#logo-wrap > img {
+  padding: 25px;
+}
+header h1 {
+  font-size: 2em;
+  padding: 20px 100px;
+  padding-top: 40px;
+}
+header p {
+  padding: 10px 50px;
+}
+header button {
+  padding: 10px 25px;
+  border: none;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550;
+}
+header button:hover {
+  transition: all 0.4s ease-in-out;
+  box-shadow: 1px 1px 25px 0px #acff2fc5;
+  cursor: pointer;
+
+  font-size: 1.05rem;
+  color: #acff2fc5;
+}
+
+/* ///////////////////////////    MAIN  //////////////////////////// */
+main {
+  padding-bottom: 20px;
+}
+main > div {
+  padding: 0 45px;
+  margin-top: 50px;
+}
+main > div > img {
+  border-radius: 50%;
+}
+main > div > h3 {
+  margin-bottom: 10px;
+}
+#red {
+  margin-top: 50px;
+  padding: 40px 30px;
+  background-color: rgb(244, 53, 0);
+  color: white;
+}
+#red > h3 {
+  padding-bottom: 10px;
+  color: white;
+  font-size: 1.8em;
+}
+#red > i {
+  font-style: italic;
+  font-size: 0.9em;
+  padding: 5px;
+}
+#red > span {
+  margin-top: 20px;
+}
+#red > span > em {
+  font-size: 0.8em;
+}
+
+/*////////////////////          ASIDE            ////////////////  */
+aside {
+  margin: 60px auto;
+}
+aside > div {
+  border: 1px solid rgba(233, 223, 223, 0.753);
+  border-radius: 5px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+aside > div > h3 {
+  padding: 15px;
+  font-size: 0.8em;
+}
+aside > div > h3:hover {
+  cursor: pointer;
+}
+aside > div > p {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  font-size: 0.8em;
+}
+
+/* ///////////////// FOOTER //////////////////////////// */
+footer {
+  background-color: #25a2c3;
+  padding: 40px 10px;
+}
+footer i {
+  color: white;
+  font-size: 1.1em;
+}
+footer > h2 {
+  font-size: 1.8em;
+}
+footer > ul {
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+footer > ul > li {
+  font-size: 0.8em;
+}
+footer span {
+  font-size: 0.7em;
+  padding-top: 20px;
+}
+#border {
+  border-top: 1px solid white;
+}
