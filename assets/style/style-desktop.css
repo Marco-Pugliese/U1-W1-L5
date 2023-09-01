@@ -121,6 +121,7 @@ aside {
   text-align: center;
   margin-top: 50px;
 }
+
 aside img {
   width: 100%;
 }
@@ -128,7 +129,7 @@ aside img {
   border: 1px solid rgba(192, 184, 184, 0.801);
   width: 28%;
   display: inline-block;
-  margin: 2%;
+  margin: 1%;
 }
 .three > div {
   font-size: 0.7em;
